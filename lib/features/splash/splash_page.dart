@@ -19,7 +19,7 @@ class SplashPage extends StatelessWidget{
           ),
         ),
         child: const Text(
-          'NOME',
+          'BDS',
           style: TextStyle(
               fontFamily: 'Inter',
               fontSize: 50.0,

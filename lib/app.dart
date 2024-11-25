@@ -1,4 +1,6 @@
+import 'package:despesas_pessoais/common/themes/default_themes.dart';
 import 'package:despesas_pessoais/features/onboarding/onboarding_page.dart';
+import 'package:despesas_pessoais/features/sing_up/sing_up_page.dart';
 import 'package:despesas_pessoais/features/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -7,8 +9,9 @@ class App extends StatelessWidget{
 
   @override
   Widget build (BuildContext context) {
-    return const MaterialApp(
-      home: OnboardingPage(),
+    return MaterialApp(
+      theme: defaultTheme,
+      home: SingUpPage(),
     );
   }
 }
